@@ -1,0 +1,133 @@
+body{
+    font-family: calibri;
+}
+.top{
+    background-color: #316DC3;
+    max-height: 200px;
+}
+.images{
+    word-spacing: 20px;
+    display: inline-block;
+    padding-left: 100px;
+}
+.ce{
+    color: white;
+    display: inline-block;
+    padding-left: 155px;
+}
+.list{
+    display: inline-block;
+    border-color: 10px black;
+    padding: 0 50px ;
+    word-spacing: 3px;
+}
+.list1{
+    font-size: 12px;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    word-spacing: normal;
+    border: 1px black solid;
+}
+.a{
+    text-decoration: none;
+    color: gray;
+}
+.middle{
+    font-weight: bold;
+    padding-left: 95px;
+    padding-top: 10px;
+    background-color: #f7f8fa;
+}
+.mid_logo{
+    display: inline-block;
+}
+.mid_opt{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 250px;
+}
+.a1{
+    size: 10px;
+    text-decoration: none;
+    background-color: #316DC3;
+    color: #f7f8fa;
+    padding: 5px;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+select{
+    font-weight: bold;
+    color: gray;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    border-radius:15px;
+    background-color: #f7f8fa;
+    padding: 8px 20px;
+}
+option{
+    background-color: white;
+    border: none;
+}
+select:hover{
+    color: white;
+    background-color: #316DC3;
+    border-radius: 15px;
+    border: none;
+}
+option{
+    background-color: #f7f8fa;
+}
+.picture{
+    position: absolute;
+    left: 0px;
+}
+.strip{
+    text-align: center;
+    background-color: royalblue;
+    margin: 0 95px
+}
+.Para{
+    text-align: center;
+    margin: 0 150px;
+    color: grey;
+}
+p.Para{
+    text-align: justify;
+    color: grey;
+}
+td{
+    font-size: 20px;
+    font-weight: 400;
+    color: royalblue;
+    border-collapse: collapse;
+    padding: 20px 80px;
+}
+td.r{
+    background-color: #f7f8fa;
+    border-spacing: 10px 20px;
+}
+td.s{
+    
+    font-size: 18px;
+    font-weight: 200;
+    color: grey;
+}
+.btm_images{
+    text-align: center;
+    color: royalblue;
+
+}
+.gre{
+    color: green;
+}
+.saylan_image{
+    text-align: center;
+}
+.footer{
+    background-color: #333;
+    color: lightgrey;
+    padding: 10px 30px;
+}
