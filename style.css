@@ -2,7 +2,7 @@ body{
     font-family: calibri;
 }
 .top{
-    background-color: #316DC3;
+    background-color: royalblue;
     max-height: 200px;
 }
 .images{
@@ -93,6 +93,7 @@ option{
     text-align: center;
     margin: 0 150px;
     color: grey;
+    background-color: #f7f8fa;
 }
 p.Para{
     text-align: justify;
@@ -127,7 +128,27 @@ td.s{
     text-align: center;
 }
 .footer{
+    height: 400px;
     background-color: #333;
     color: lightgrey;
-    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.Footer_logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.After_para_strip{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+.strip_logo{
+    color: white; 
+    text-align: center;
 }
